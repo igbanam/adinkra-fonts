@@ -1,0 +1,255 @@
+$edinkraa-font: "edinkraa";
+
+@font-face {
+    font-family: $edinkraa-font;
+    src: url("./edinkraa.eot?2980ae8d13f9fe162abc4e5ee6b8acc4#iefix") format("embedded-opentype"),
+url("./edinkraa.woff2?2980ae8d13f9fe162abc4e5ee6b8acc4") format("woff2"),
+url("./edinkraa.woff?2980ae8d13f9fe162abc4e5ee6b8acc4") format("woff");
+}
+
+i[class^="edk-"]:before, i[class*=" edk-"]:before {
+    font-family: edinkraa !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$edinkraa-map: (
+    "adinkrahene": "\f101",
+    "akoben": "\f102",
+    "akofena": "\f103",
+    "akoko-nan": "\f104",
+    "akoma-ntoso": "\f105",
+    "akoma": "\f106",
+    "ananse-ntontan": "\f107",
+    "asase-ye-duru": "\f108",
+    "aya": "\f109",
+    "bese-saka": "\f10a",
+    "bi-nka-bi": "\f10b",
+    "boa-me-na-me-mmoa-wo": "\f10c",
+    "dame-dame": "\f10d",
+    "denkyem": "\f10e",
+    "duafe": "\f10f",
+    "dwennimmen": "\f110",
+    "eban": "\f111",
+    "epa": "\f112",
+    "ese-ne-tekrema": "\f113",
+    "fawohodie": "\f114",
+    "fihankra": "\f115",
+    "fofo": "\f116",
+    "funtunfunefu-denkyemfunefu": "\f117",
+    "gye-nyame": "\f118",
+    "hwe-mu-dua": "\f119",
+    "mate-masie": "\f11a",
+    "me-ware-wo": "\f11b",
+    "mmere-dane": "\f11c",
+    "mmusuyidee": "\f11d",
+    "mpatapo": "\f11e",
+    "mpuannum": "\f11f",
+    "nea-onnim-no-sua-a-ohu": "\f120",
+    "nea-ope-se-obedi-hene": "\f121",
+    "nkonsonkonson": "\f122",
+    "nkyimu": "\f123",
+    "nkyinkyim": "\f124",
+    "nsaa": "\f125",
+    "nsoromma": "\f126",
+    "nyame-biribi-wo-soro": "\f127",
+    "nyame-dua": "\f128",
+    "nyame-nnwu-na-mawu": "\f129",
+    "nyame-nti": "\f12a",
+    "nyame-ye-ohene": "\f12b",
+    "nyansapo": "\f12c",
+    "odo-nnyew-fie-kwan": "\f12d",
+    "okodee-mmowere": "\f12e",
+    "onyankopon-adom-nti-biribiara-beye-yie": "\f12f",
+    "osram-ne-nsoromma": "\f130",
+    "owo-foro-adobe": "\f131",
+    "owuo-atwedee": "\f132",
+    "pempamsie": "\f133",
+    "sankofa-2": "\f134",
+    "sankofa": "\f135",
+    "sesa-wo-suban": "\f136",
+    "tamfo-bebre": "\f137",
+    "wawa-aba": "\f138",
+    "wo-nsa-da-mu-a": "\f139",
+    "woforo-dua-pa-a": "\f13a",
+);
+
+.edk-adinkrahene:before {
+    content: map-get($edinkraa-map, "adinkrahene");
+}
+.edk-akoben:before {
+    content: map-get($edinkraa-map, "akoben");
+}
+.edk-akofena:before {
+    content: map-get($edinkraa-map, "akofena");
+}
+.edk-akoko-nan:before {
+    content: map-get($edinkraa-map, "akoko-nan");
+}
+.edk-akoma-ntoso:before {
+    content: map-get($edinkraa-map, "akoma-ntoso");
+}
+.edk-akoma:before {
+    content: map-get($edinkraa-map, "akoma");
+}
+.edk-ananse-ntontan:before {
+    content: map-get($edinkraa-map, "ananse-ntontan");
+}
+.edk-asase-ye-duru:before {
+    content: map-get($edinkraa-map, "asase-ye-duru");
+}
+.edk-aya:before {
+    content: map-get($edinkraa-map, "aya");
+}
+.edk-bese-saka:before {
+    content: map-get($edinkraa-map, "bese-saka");
+}
+.edk-bi-nka-bi:before {
+    content: map-get($edinkraa-map, "bi-nka-bi");
+}
+.edk-boa-me-na-me-mmoa-wo:before {
+    content: map-get($edinkraa-map, "boa-me-na-me-mmoa-wo");
+}
+.edk-dame-dame:before {
+    content: map-get($edinkraa-map, "dame-dame");
+}
+.edk-denkyem:before {
+    content: map-get($edinkraa-map, "denkyem");
+}
+.edk-duafe:before {
+    content: map-get($edinkraa-map, "duafe");
+}
+.edk-dwennimmen:before {
+    content: map-get($edinkraa-map, "dwennimmen");
+}
+.edk-eban:before {
+    content: map-get($edinkraa-map, "eban");
+}
+.edk-epa:before {
+    content: map-get($edinkraa-map, "epa");
+}
+.edk-ese-ne-tekrema:before {
+    content: map-get($edinkraa-map, "ese-ne-tekrema");
+}
+.edk-fawohodie:before {
+    content: map-get($edinkraa-map, "fawohodie");
+}
+.edk-fihankra:before {
+    content: map-get($edinkraa-map, "fihankra");
+}
+.edk-fofo:before {
+    content: map-get($edinkraa-map, "fofo");
+}
+.edk-funtunfunefu-denkyemfunefu:before {
+    content: map-get($edinkraa-map, "funtunfunefu-denkyemfunefu");
+}
+.edk-gye-nyame:before {
+    content: map-get($edinkraa-map, "gye-nyame");
+}
+.edk-hwe-mu-dua:before {
+    content: map-get($edinkraa-map, "hwe-mu-dua");
+}
+.edk-mate-masie:before {
+    content: map-get($edinkraa-map, "mate-masie");
+}
+.edk-me-ware-wo:before {
+    content: map-get($edinkraa-map, "me-ware-wo");
+}
+.edk-mmere-dane:before {
+    content: map-get($edinkraa-map, "mmere-dane");
+}
+.edk-mmusuyidee:before {
+    content: map-get($edinkraa-map, "mmusuyidee");
+}
+.edk-mpatapo:before {
+    content: map-get($edinkraa-map, "mpatapo");
+}
+.edk-mpuannum:before {
+    content: map-get($edinkraa-map, "mpuannum");
+}
+.edk-nea-onnim-no-sua-a-ohu:before {
+    content: map-get($edinkraa-map, "nea-onnim-no-sua-a-ohu");
+}
+.edk-nea-ope-se-obedi-hene:before {
+    content: map-get($edinkraa-map, "nea-ope-se-obedi-hene");
+}
+.edk-nkonsonkonson:before {
+    content: map-get($edinkraa-map, "nkonsonkonson");
+}
+.edk-nkyimu:before {
+    content: map-get($edinkraa-map, "nkyimu");
+}
+.edk-nkyinkyim:before {
+    content: map-get($edinkraa-map, "nkyinkyim");
+}
+.edk-nsaa:before {
+    content: map-get($edinkraa-map, "nsaa");
+}
+.edk-nsoromma:before {
+    content: map-get($edinkraa-map, "nsoromma");
+}
+.edk-nyame-biribi-wo-soro:before {
+    content: map-get($edinkraa-map, "nyame-biribi-wo-soro");
+}
+.edk-nyame-dua:before {
+    content: map-get($edinkraa-map, "nyame-dua");
+}
+.edk-nyame-nnwu-na-mawu:before {
+    content: map-get($edinkraa-map, "nyame-nnwu-na-mawu");
+}
+.edk-nyame-nti:before {
+    content: map-get($edinkraa-map, "nyame-nti");
+}
+.edk-nyame-ye-ohene:before {
+    content: map-get($edinkraa-map, "nyame-ye-ohene");
+}
+.edk-nyansapo:before {
+    content: map-get($edinkraa-map, "nyansapo");
+}
+.edk-odo-nnyew-fie-kwan:before {
+    content: map-get($edinkraa-map, "odo-nnyew-fie-kwan");
+}
+.edk-okodee-mmowere:before {
+    content: map-get($edinkraa-map, "okodee-mmowere");
+}
+.edk-onyankopon-adom-nti-biribiara-beye-yie:before {
+    content: map-get($edinkraa-map, "onyankopon-adom-nti-biribiara-beye-yie");
+}
+.edk-osram-ne-nsoromma:before {
+    content: map-get($edinkraa-map, "osram-ne-nsoromma");
+}
+.edk-owo-foro-adobe:before {
+    content: map-get($edinkraa-map, "owo-foro-adobe");
+}
+.edk-owuo-atwedee:before {
+    content: map-get($edinkraa-map, "owuo-atwedee");
+}
+.edk-pempamsie:before {
+    content: map-get($edinkraa-map, "pempamsie");
+}
+.edk-sankofa-2:before {
+    content: map-get($edinkraa-map, "sankofa-2");
+}
+.edk-sankofa:before {
+    content: map-get($edinkraa-map, "sankofa");
+}
+.edk-sesa-wo-suban:before {
+    content: map-get($edinkraa-map, "sesa-wo-suban");
+}
+.edk-tamfo-bebre:before {
+    content: map-get($edinkraa-map, "tamfo-bebre");
+}
+.edk-wawa-aba:before {
+    content: map-get($edinkraa-map, "wawa-aba");
+}
+.edk-wo-nsa-da-mu-a:before {
+    content: map-get($edinkraa-map, "wo-nsa-da-mu-a");
+}
+.edk-woforo-dua-pa-a:before {
+    content: map-get($edinkraa-map, "woforo-dua-pa-a");
+}

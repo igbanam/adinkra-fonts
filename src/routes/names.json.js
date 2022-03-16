@@ -1,0 +1,71 @@
+const NAMES = [
+  "adinkrahene",
+  "akoben",
+  "akofena",
+  "akoko-nan",
+  "akoma-ntoso",
+  "akoma",
+  "ananse-ntontan",
+  "asase-ye-duru",
+  "aya",
+  "bese-saka",
+  "bi-nka-bi",
+  "boa-me-na-me-mmoa-wo",
+  "dame-dame",
+  "denkyem",
+  "duafe",
+  "dwennimmen",
+  "eban",
+  "epa",
+  "ese-ne-tekrema",
+  "fawohodie",
+  "fihankra",
+  "fofo",
+  "funtunfunefu-denkyemfunefu",
+  "gye-nyame",
+  "hwe-mu-dua",
+  "mate-masie",
+  "me-ware-wo",
+  "mmere-dane",
+  "mmusuyidee",
+  "mpatapo",
+  "mpuannum",
+  "nea-onnim-no-sua-a-ohu",
+  "nea-ope-se-obedi-hene",
+  "nkonsonkonson",
+  "nkyimu",
+  "nkyinkyim",
+  "nsaa",
+  "nsoromma",
+  "nyame-biribi-wo-soro",
+  "nyame-dua",
+  "nyame-nnwu-na-mawu",
+  "nyame-nti",
+  "nyame-ye-ohene",
+  "nyansapo",
+  "odo-nnyew-fie-kwan",
+  "okodee-mmowere",
+  "onyankopon-adom-nti-biribiara-beye-yie",
+  "osram-ne-nsoromma",
+  "owo-foro-adobe",
+  "owuo-atwedee",
+  "pempamsie",
+  "sankofa-2",
+  "sankofa",
+  "sesa-wo-suban",
+  "tamfo-bebre",
+  "wawa-aba",
+  "wo-nsa-da-mu-a",
+  "woforo-dua-pa-a"
+]
+
+export function get() {
+  return {
+    headers: {
+      'cache-control': 'public, max-age=8640000'
+    },
+    body: {
+      ...NAMES
+    }
+  }
+}
